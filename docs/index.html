@@ -7,12 +7,116 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kaya Lee's Portfolio</title>
+
+  <style>
+    body {
+      padding-top:40px;
+      padding-bottom:40px;
+    }
+
+    .banner-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+    }
+
+    .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+    }
+
+    body {
+    background-color: #004643;
+    }
+
+    .name {
+      color: #fffffe;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: #f9bc60;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+    }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1
+    }
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      padding:5px;
+    }
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Kaya Lee</h1>
-  <a href="https://github.com/klee2024/pomodoro-app"> PomoTotoro</a>
-  <a href="https://github.com/klee2024/musk-tweets-TSLA"> Influence of Elon Musk's Tweets on TSLA Stock</a>
-  
+
+  <div class = "items">
+    <div class = "banner">
+      <img src = "profile-pic.png" alt = "Kaya Lee headshot" class = "banner-image">
+    </div>
+
+    <div class = "name">
+      Kaya Lee
+    </div>
+
+    <div class = "social-icons">
+      <a href = "https://github.com/klee2024" target = "_blank" class = "thumbnail">
+        GitHub
+      </a>
+      <a href = "https://www.linkedin.com/in/kaya-m-lee/
+    " target = "_blank">
+        LinkedIn
+      </a>
+    </div>
+
+    <div class = "link">
+      <img src = "github.png" target = "_blank" class = "thumbnail">
+      <a href="https://github.com/klee2024/pomodoro-app"> PomoTotoro</a>
+    </div>
+
+    <div class = "link">
+      <img src = "linkedin.png" target = "_blank" class = "thumbnail">
+      <a href="https://github.com/klee2024/musk-tweets-TSLA"> Influence of Elon Musk's Tweets on TSLA Stock</a>
+    </div>
+</div>
+
 </body>
 
 </html>
